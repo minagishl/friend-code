@@ -54,7 +54,7 @@ export default function Index() {
               <span className="font-medium text-gray-700 text-base font-sans tracking-wider w-full text-left sm:text-center sm:w-auto">
                 {code.name}
               </span>
-              <span className="text-teal-600 font-mono text-lg group-hover:scale-105 transition-transform sm:max-w-[50%] truncate w-full text-left sm:text-right sm:w-auto">
+              <span className="text-teal-600 font-mono text-lg group-hover:scale-105 group-hover:translate-x-2.5 sm:group-hover:-translate-x-0.5 transition-transform sm:max-w-[50%] truncate w-full text-left sm:text-right sm:w-auto">
                 {code.code}
               </span>
             </button>
