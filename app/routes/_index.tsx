@@ -40,7 +40,10 @@ function copyToClipboard(text: string) {
 export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-100 to-cyan-100 flex items-center justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-6 space-y-4">
+      <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-6">
+        <span className="pb-6 flex w-full text-center justify-center text-teal-600">
+          \\ クリックでコピー //
+        </span>
         <div className="space-y-3">
           {config.codes?.map((code) => (
             <button
